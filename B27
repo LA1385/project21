@@ -1,0 +1,32 @@
+<html>
+   <body>
+    <h1 style="text-align: center;">THE USE OF LOOP(JAVA) IN MY WEBPAGE </h1>
+
+      <script>
+        //to begin with the repeatation of some words//
+       
+         var w1;
+          for(w1 = 1; w1 <= 10; w1 +=1) {
+            document.write(w1 + " " + "The World Is Growing Into A Global Village<br><br><b>");
+          }
+
+          //showing some automatic calculation using java//
+
+            var c1 = Math.round(25.765);
+            document.write("c1=" + c1 + "<br>");
+
+            var c2 = Math.round(4.2335);
+            document.write("c2=" + c2 + "<br>");
+
+            var c3 = Math.floor(56.899);
+            document.write("c3=" + c3 + "<br>");
+
+            var c3 = Math.ceil(56.1239);
+            document.write("c3=" + c3 + "<br>");
+
+            var d = new Date();
+            document.write("Current date and time=<br>" + d);
+          
+      </script>
+   </body>
+</html>
